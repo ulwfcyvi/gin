@@ -1,8 +1,8 @@
 package com.gin.clickhouse;
 
 /**
-* @author gin
-* @date 2021/3/26
+* @author jack
+* @date 2022/07/07
 */
 public class ClickHouseTest
 {

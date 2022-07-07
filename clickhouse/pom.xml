@@ -22,29 +22,29 @@
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-clients_2.11</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.1</version>
     </dependency>
     <!--添加 Flink Table API 相关的依赖 -->
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-table-planner-blink_2.11</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-table-api-scala-bridge_2.11</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-table-common</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.1</version>
     </dependency>
     <!--添加 Flink JDBC Connector 以及 Clickhouse JDBC Driver 相关的依赖 -->
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-connector-jdbc_2.11</artifactId>
-      <version>1.11.3</version>
+      <version>1.11.1</version>
     </dependency>
     <!-- flink base connector api end -->
 
@@ -55,7 +55,7 @@
       <artifactId>clickhouse-jdbc</artifactId>
       <version>0.2.4</version>
     </dependency>
-    <!-- java api end -->
+    <!-- java api end <version>0.3.2</version> -->
 
     <dependency>
       <groupId>junit</groupId>
