@@ -23,7 +23,7 @@ public class ClickHouseJavaCluster {
             props.setUser("");
             props.setPassword("");
             //连接配置 node01
-            BalancedClickhouseDataSource dataSource = new BalancedClickhouseDataSource("jdbc:clickhouse://172.21.21.204:8123,172.21.21.205:8123/default", props);
+            BalancedClickhouseDataSource dataSource = new BalancedClickhouseDataSource("jdbc:clickhouse://172.0.0.0:8123,172.0.0.0:8123/default", props);
             //获取连接
             ClickHouseConnection conn = dataSource.getConnection();
             //查询语句对象
