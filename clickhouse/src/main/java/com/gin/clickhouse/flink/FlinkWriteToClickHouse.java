@@ -83,7 +83,7 @@ public class FlinkWriteToClickHouse {
                 //执行sql语句配置(没达到设置的批数执行一次)
                 JdbcExecutionOptions.builder().withBatchSize(1).build(),
                 new JdbcConnectionOptions.JdbcConnectionOptionsBuilder()
-                        .withUrl("jdbc:clickhouse://172.21.21.205:8123/default")
+                        .withUrl("jdbc:clickhouse://172.0.0.0:8123/default")
                         .withDriverName("ru.yandex.clickhouse.ClickHouseDriver")
                         .withUsername("")
                         .withPassword("")
